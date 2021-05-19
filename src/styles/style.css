@@ -1,3 +1,32 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    
 }
+.caixa {
+    border-radius: 8px;
+    border: 1.5px solid gray;
+    margin-top: 50px;
+    padding: 20px;
+ }
+ 
+ .btn {
+    margin-top: 80px;
+ }
+ h3{
+    color: rgb(22, 22, 22);
+    } 
+    .text-center{
+        color: rgb(22, 22, 22);
+    }
+    .btn{
+        background-color: rgb(82, 80, 80);
+        border-color: rgb(82, 80, 80);
+    }
+    .btn:hover{
+        background-color:rgb(68, 67, 67);
+        border-color: rgb(68, 67, 67);
+    }
+    .btn1{
+        margin-right:202px ;
+        
+    }
