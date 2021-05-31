@@ -4,6 +4,8 @@ var db_usuarios = {};
 
 var usuarioCorrente = {};
 
+var isLoggedIn;
+
 function generateUUID() {
    var d = new Date().getTime();
    var d2 = (performance && performance.now && (performance.now()*1000)) || 0;
@@ -54,6 +56,9 @@ function loginUser (email, senha) {
          usuarioCorrente.email = usuario.email;
          usuarioCorrente.nome = usuario.nome;
          sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
+
+         sessionStorage.setItem ('userValue', usuarioCorrente.nome);
+
          return true;
       }
    }
@@ -68,5 +73,6 @@ function addUser (nome, email, senha) {
 
    localStorage.setItem('db_usuarios', JSON.stringify (db_usuarios));
 }
+
 
 initLoginApp ();
