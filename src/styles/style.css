@@ -30,3 +30,7 @@ body {
         margin-right:202px ;
         
     }
+
+.escuro {
+    background-color: rgb(65, 65, 65) !important;
+}
