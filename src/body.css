@@ -9,12 +9,9 @@
 .form-control{background-color: rgb(212, 212, 212); padding-bottom: 0px; margin-top: 0px; padding-bottom: 4px;}
 .login a{color: #FFFFFF; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;font-size: calc(10px + (8/1200) * 100 * 1vw);line-height: 30px;text-align: left;}
 .login a:hover{color: #cef4df; border-bottom: 2px solid #fdfdfd }
-<<<<<<< HEAD:src/body.css
 .title-small {font-size: 26px; font-weight: 400; line-height: 23px; margin: 6px 0 0;}
 
-=======
 
 .escuro {
    background-color: rgb(65, 65, 65) !important;
 }
->>>>>>> 6b0e861cc46dbbd8da9e1c135c05e797f9ee1326:src/body,.css
