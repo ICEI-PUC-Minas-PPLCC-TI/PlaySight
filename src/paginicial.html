@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="body,.css">
 	<script src="https://kit.fontawesome.com/2137f480f1.js" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="/src/scripts/escuro.js"></script>
+	<script src="./scripts/escuro.js"></script>
 </head>
 <body id="body_escuro">
    <style>
@@ -72,10 +72,10 @@ $('#dropdownLogout').click( function () {
 						<div class="login">
 							<div class="nav-item" id="loginDropdown"> <a class="nav-link" href="login.html" id="loginInput">Login</a></div>
 						</div>
+						<div class="modo_escuro">
+							<button type="button" id="modo_escuro" class="btn btn-dark" style="margin-top: 8px;" onclick="modoEscuro()">Dark Mode</button>
+						</div>
 					</ul>
-				</div>
-				<div class="modo_escuro">
-					<button type="button" id="modo_escuro" class="btn btn-dark" onclick="modoEscuro()">Dark Mode</button>
 				</div>
 			</div>
 		</nav>
