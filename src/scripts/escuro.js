@@ -6,7 +6,7 @@ function modoEscuro() {
       $("#header_escuro").addClass("escuro");
       $("#section_escuro").addClass("escuro");
       $("#footer_escuro").addClass("escuro");
-      $("#body_escuro").addClass("escuro");
+      $("#body_escuro").addClass("escuro_background");
       $("#main_escuro").addClass("escuro");
       $("#caixa_escuro").addClass("escuro");
       modoEsc = 1;
@@ -16,7 +16,7 @@ function modoEscuro() {
       $("#header_escuro").removeClass("escuro");
       $("#section_escuro").removeClass("escuro");
       $("#footer_escuro").removeClass("escuro");
-      $("#body_escuro").removeClass("escuro");
+      $("#body_escuro").removeClass("escuro_background");
       $("#main_escuro").removeClass("escuro");
       $("#caixa_escuro").removeClass("escuro");
       modoEsc = 0;
