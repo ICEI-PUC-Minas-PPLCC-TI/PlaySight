@@ -4,11 +4,18 @@
 .top-nav li a{color: #FFFFFF; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 20px; line-height: 30px; text-align: left;}
 .top-nav li a:hover, .top-nav li a:focus, .top-nav li.active a{color: #cef4df; border-bottom: 2px solid #fdfdfd }
 .top-nav .form-control{border-color: rgb(0, 0, 0)}
-.nav-item{margin-left: 40px; margin-top: 0px; padding-right: 4px;}
+.nav-item{margin-left: 30px; margin-top: 0px; padding-right: 4px;}
 .search{margin-top: 10px; margin-left: 15px;}
 .form-control{background-color: rgb(212, 212, 212); padding-bottom: 0px; margin-top: 0px; padding-bottom: 4px;}
 .login a{color: #FFFFFF; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;font-size: calc(10px + (8/1200) * 100 * 1vw);line-height: 30px;text-align: left;}
 .login a:hover{color: #cef4df; border-bottom: 2px solid #fdfdfd }
+
+#loginDropdown{
+
+margin-left: 10px !important;
+margin-right: 0px !important;
+
+}
 
 .escuro {
    background-color: rgb(65, 65, 65) !important;
