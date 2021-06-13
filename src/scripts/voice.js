@@ -17,7 +17,7 @@ $(document).ready( function() {
          falar.voice = brVoice // voz defina acima
         falar.rate = 0.8 // velocidade de fala
     
-       window.speechSynthesis.speak(utterance);
+       window.speechSynthesis.speak(falar);
 
 
 
