@@ -9,13 +9,13 @@ $(document).ready( function() {
 
         const brVoice = voices?.find((voices) => /pt-BR/.test(voices.lang));
     
-        const utterance = new SpeechSynthesisUtterance()
+        const falar = new SpeechSynthesisUtterance()
     
     
-       utterance.text = texto; // é o texto que sera lido
-       utterance.lang = 'pt-BR' // língua a ser falado
-         utterance.voice = brVoice // voz defina acima
-        utterance.rate = 0.8 // velocidade de fala
+       falar.text = texto; // é o texto que sera lido
+       falar.lang = 'pt-BR' // língua a ser falado
+         falar.voice = brVoice // voz defina acima
+        falar.rate = 0.8 // velocidade de fala
     
        window.speechSynthesis.speak(utterance);
 
