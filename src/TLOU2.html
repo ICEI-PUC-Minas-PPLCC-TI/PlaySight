@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<title>PlaySight: Jogos inclusivos</title>
 		<link rel="stylesheet" href="body.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="TLOU2.js"></script>
 	  </head>
 </html>
    <style>
@@ -59,3 +61,28 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
   </button>
+  <section class="games-sec">
+	<div class="game-section">
+			<div class="row">
+					<div class="col-md-8">
+							<div class="card"> <img class="img-fluid" src="assets/TLOU2.jpg" alt="">
+								<div class="card-body">
+										<div class="game-title">
+										<h3 class=" title-small">The Last Of Us 2 foi premiado por suas incontáveis opções de acessibilidade, e não é atoa. Além da gameplay emocionante, suas opções permitem que o jogo se ajuste a uma enorme quantidade de condições visuais, tornando-o um jogo perfeito em todos os olhares.</h3>
+										<h3 class=" compra"> <a href="https://store.playstation.com/pt-br/product/UP9000-CUSA07820_00-THELASTOFUSPART2">Comprar para PlayStation</a></h3>
+										</div>
+								</div>
+							</div>
+					</div>
+			</div>
+	</div>
+	<section class="comments">
+		<div id="dtext">
+		  <h4>Comente sobre o jogo!</h4>
+		  <textarea id="txt1" class="textbox" rows="5" cols="60" placeholder="Escreva seu comentário aqui..."></textarea>
+		</div>
+		<!-- <button class="navbutton" onClick="clearComment()">Limpar tudo</button> -->
+		<button class="navbutton" onClick="saveComment()">Postar</button>
+		<h4>Commentários</h4>
+		<div id="cmtlist10"></div>
+	</section>

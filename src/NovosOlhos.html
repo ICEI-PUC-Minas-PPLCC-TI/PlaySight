@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<title>PlaySight: Jogos inclusivos</title>
 		<link rel="stylesheet" href="body.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="NovosOlhos.js"></script>
 	  </head>
 </html>
    <style>
@@ -59,3 +61,28 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
   </button>
+  <section class="games-sec">
+	<div class="game-section">
+			<div class="row">
+					<div class="col-md-8">
+							<div class="card"> <img class="img-fluid" src="assets/NovosOlhos.png" alt="">
+								<div class="card-body">
+										<div class="game-title">
+										<h3 class=" title-small">Novos olhos é um jogo feito por alunos da FATEC para portadores de deficiências visuais. Disponivel para download para androids, é um audiojogo onde você acompanha a aventura de André, que perdeu sua visão e tem que se adaptar ao novo mundo em que vive. Vale a pena experimentar!</h3>
+										<h3 class=" compra"> <a href="https://play.google.com/store/search?q=novos%20olhos&hl=pt_BR&gl=US">Comprar pela google play</a></h3>
+										</div>
+								</div>
+							</div>
+					</div>
+			</div>
+	</div>
+	<section class="comments">
+		<div id="dtext">
+		  <h4>Comente sobre o jogo!</h4>
+		  <textarea id="txt1" class="textbox" rows="5" cols="60" placeholder="Escreva seu comentário aqui..."></textarea>
+		</div>
+		<!-- <button class="navbutton" onClick="clearComment()">Limpar tudo</button> -->
+		<button class="navbutton" onClick="saveComment()">Postar</button>
+		<h4>Commentários</h4>
+		<div id="cmtlist6"></div>
+	</section>

@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<title>PlaySight: Jogos inclusivos</title>
 		<link rel="stylesheet" href="body.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="BlindLegend.js"></script>
 	  </head>
 </html>
    <style>
@@ -75,3 +77,13 @@
 					</div>
 			</div>
 	</div>
+	<section class="comments">
+		<div id="dtext">
+		  <h4>Comente sobre o jogo!</h4>
+		  <textarea id="txt1" class="textbox" rows="5" cols="60" placeholder="Escreva seu comentário aqui..."></textarea>
+		</div>
+		<!-- <button class="navbutton" onClick="clearComment()">Limpar tudo</button> -->
+		<button class="navbutton" onClick="saveComment()">Postar</button>
+		<h4>Commentários</h4>
+		<div id="cmtlist5"></div>
+	</section>

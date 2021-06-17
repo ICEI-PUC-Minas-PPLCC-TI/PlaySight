@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<title>PlaySight: Jogos inclusivos</title>
 		<link rel="stylesheet" href="body.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="GearsOfWar.js"></script>
 	  </head>
 </html>
    <style>
@@ -59,3 +61,29 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
   </button>
+  <section class="games-sec">
+	<div class="game-section">
+			<div class="row">
+					<div class="col-md-8">
+							<div class="card"> <img class="img-fluid" src="assets/Gears5.jpg" alt="">
+								<div class="card-body">
+										<div class="game-title">
+										<h3 class=" title-small">Gears of War 5 é um jogo de ação em FPS que une mobilidade e poder de fogo. E nesses jogos, não se pode perder o luxo de confundir pontos chave. Por isso, o jogo conta com várias opções de configurações para daltonismo e outros problemas relacionados que ajudam na sua jogatina!</h3>
+										<h3 class=" compra"> <a href="https://store.steampowered.com/agecheck/app/1097840/">Download para PC pela Steam</a></h3>
+										<h3 class=" compra"> <a href="https://www.xbox.com/pt-BR/games/gears-5">Download para Xbox</a></h3>
+										</div>
+								</div>
+							</div>
+					</div>
+			</div>
+	</div>
+	<section class="comments">
+		<div id="dtext">
+		  <h4>Comente sobre o jogo!</h4>
+		  <textarea id="txt1" class="textbox" rows="5" cols="60" placeholder="Escreva seu comentário aqui..."></textarea>
+		</div>
+		<!-- <button class="navbutton" onClick="clearComment()">Limpar tudo</button> -->
+		<button class="navbutton" onClick="saveComment()">Postar</button>
+		<h4>Commentários</h4>
+		<div id="cmtlist"></div>
+	</section>

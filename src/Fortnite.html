@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<title>PlaySight: Jogos inclusivos</title>
 		<link rel="stylesheet" href="body.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="Fortnite.js"></script>
 	  </head>
 </html>
    <style>
@@ -59,3 +61,30 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
   </button>
+  <section class="games-sec">
+	<div class="game-section">
+			<div class="row">
+					<div class="col-md-8">
+							<div class="card"> <img class="img-fluid" src="assets/fortnite.jpg" alt="">
+								<div class="card-body">
+										<div class="game-title">
+										<h3 class=" title-small">Fortnite é um jogo de FPS bastante conhecido pela nova geração, e portanto, não podia faltar opções de acessibilidade para ele. Com configurações de daltonismo e três flitros pra se adaptar ao máximo aos olhos do jogador, mas com opções para mudar a intensidade dos filtros para melhor adequação do usuário.</h3>
+										<h3 class=" compra"> <a href="https://www.epicgames.com/fortnite/pt-BR/download">Download para PC pela Epic Store</a></h3>
+										<h3 class=" compra"> <a href="https://www.epicgames.com/fortnite/pt-BR/mobile/android/get-started">Download para Android</a></h3>
+										<h3 class=" compra"> <a href="https://store.playstation.com/pt-br/product/UP1477-CUSA07022_00-FORTNITETESTING1">Download para PlayStation</a></h3>
+										<h3 class=" compra"> <a href="https://www.xbox.com/pt-BR/games/fortnite">Download para Xbox</a></h3>
+										</div>
+								</div>
+							</div>
+					</div>
+			</div>
+	</div>
+	<section class="comments">
+		<div id="dtext">
+		  <h4>Comente sobre o jogo!</h4>
+		  <textarea id="txt1" class="textbox" rows="5" cols="60" placeholder="Escreva seu comentário aqui..."></textarea>
+		</div>
+		<!-- <button class="navbutton" onClick="clearComment()">Limpar tudo</button> -->
+		<button class="navbutton" onClick="saveComment()">Postar</button>
+		<h4>Commentários</h4>
+		<div id="cmtlist2"></div>

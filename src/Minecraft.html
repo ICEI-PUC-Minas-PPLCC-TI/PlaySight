@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<title>PlaySight: Jogos inclusivos</title>
 		<link rel="stylesheet" href="body.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="Minecraft.js"></script>
 	  </head>
 </html>
    <style>
@@ -59,3 +61,32 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
   </button>
+  <section class="games-sec">
+	<div class="game-section">
+			<div class="row">
+					<div class="col-md-8">
+							<div class="card"> <img class="img-fluid" src="assets/minecraft.jpg" alt="">
+								<div class="card-body">
+										<div class="game-title">
+										<h3 class=" title-small">Minecraft é um jogo conhecido, desde 2010 até a atualidade mantendo-se sempre relevante e atualizado. E com as atualizações, muitas configurações de acessibilidade foram adicionadas, como ferramentas de narração, ajustes de blocos para ajudar na identificação e conversões de fala em texto. Clássicos nunca ficam velhos</h3>
+										<h3 class=" compra"> <a href="https://www.minecraft.net/pt-br">Comprar pelo site oficial</a></h3>
+										<h3 class=" compra"> <a href="https://apps.apple.com/br/app/minecraft/id479516143">Comprar pela app store</a></h3>
+										<h3 class=" compra"> <a href="https://store.playstation.com/pt-br/product/UP4433-CUSA00744_00-MINECRAFTPS40001">Comprar para PlayStation</a></h3>
+										<h3 class=" compra"> <a href="https://www.xbox.com/pt-BR/games/minecraft">Comprar para Xbox</a></h3>
+										<h3 class=" compra"> <a href="https://www.nintendo.com/pt_BR/games/detail/minecraft-switch/">Comprar para nintendo switch</a></h3>
+										</div>
+								</div>
+							</div>
+					</div>
+			</div>
+	</div>
+	<section class="comments">
+		<div id="dtext">
+		  <h4>Comente sobre o jogo!</h4>
+		  <textarea id="txt1" class="textbox" rows="5" cols="60" placeholder="Escreva seu comentário aqui..."></textarea>
+		</div>
+		<!-- <button class="navbutton" onClick="clearComment()">Limpar tudo</button> -->
+		<button class="navbutton" onClick="saveComment()">Postar</button>
+		<h4>Commentários</h4>
+		<div id="cmtlist3"></div>
+	</section>
